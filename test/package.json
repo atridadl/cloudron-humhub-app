@@ -14,12 +14,12 @@
     "mkdirp": "^1.0.4",
     "mocha": "^8.4.0",
     "rimraf": "^3.0.2",
-    "superagent": "^6.1.0"
+    "superagent": "^7.0.2"
   },
   "dependencies": {
     "chromedriver": "^90.0.0",
     "selenium-server-standalone-jar": "^3.141.59",
     "selenium-webdriver": "^3.6.0",
-    "superagent": "^1.8.5"
+    "superagent": "^7.0.2"
   }
 }
