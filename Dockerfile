@@ -59,7 +59,7 @@ RUN sed -e 's,^logfile=.*$,logfile=/run/supervisord.log,' -i /etc/supervisor/sup
 
 RUN npm install -g grunt-cli less
 
-RUN curl -L https://github.com/humhub/humhub/archive/refs/tags/v${VERSION}.tar.gz | tar zx --strip-components 1 -C /app/code
+RUN curl -L https://github.com/transitionnetwork/humhub/archive/refs/heads/transition-network.tar.gz | tar zx --strip-components 1 -C /app/code
 RUN rm /app/code/index-test.php
 RUN mv /app/code/.htaccess.dist /app/code/.htaccess
 ENV DEBUG_TEXT="YII_DEBUG"
